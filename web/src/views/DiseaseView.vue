@@ -1,6 +1,6 @@
 <template>
 
-    <div class="text-justify">
+    <div>
         <el-header>
             <TopMenu/>
         </el-header>
@@ -76,10 +76,10 @@
                         v-model:page-size="current_size"
                         :page-sizes="[10,20,30,40,50]"
                         :total="7825"
+                        class="justify-center"
                         layout="total, sizes, prev, pager, next, jumper"
                         @current-change="reload"
                         @size-change="reload"
-                        class="justify-center"
                 />
             </div>
         </div>

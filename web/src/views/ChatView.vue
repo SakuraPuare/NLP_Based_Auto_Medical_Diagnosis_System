@@ -1,5 +1,5 @@
 <template>
-    <div class="text-justify">
+    <div>
         <el-header>
             <TopMenu/>
         </el-header>

@@ -13,6 +13,7 @@
     "autoprefixer": "^10.4.14",
     "axios": "^1.4.0",
     "element-plus": "^2.3.4",
+    "lottie-web": "^5.11.0",
     "normalize.css": "^8.0.1",
     "postcss": "^8.4.23",
     "vue": "^3.2.47",

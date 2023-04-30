@@ -1,13 +1,13 @@
 const config = {
 	dev: {
-		api: 'http://192.168.31.49:8000/'
+		api: 'http://localhost:8000/'
 	},
 	prod: {
-		api: ''
+		api: 'https://medical.sakurapuare.com/api/'
 	}
 }
 
-let current = config.dev;
+let current = config.prod;
 
 if (process.env.NODE_ENV === 'production') {
 	current = config.prod;

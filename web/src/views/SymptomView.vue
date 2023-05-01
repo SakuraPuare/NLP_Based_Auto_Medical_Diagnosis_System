@@ -101,7 +101,7 @@ if (id.value === 'list') {
 	reload()
 } else {
 	data.value = ''
-	http.get(baseURL + 'symptom/' + id.value)
+	http.get(baseURL + 'symptom/' + id.value + '/')
 		.then((res) => {
 			data.value = res.data.data;
 			console.log(data)

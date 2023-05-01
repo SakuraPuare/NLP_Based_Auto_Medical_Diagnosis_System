@@ -64,8 +64,10 @@ async def get_detail(types: str, ids: Union[int, str], limit: int = 10, offset: 
     return {"message": "success", "code": 200, "time": time.time(), "data": data}
 
 
-@app.get("/query")
+@app.get("/query/")
 async def query(message: str = None):
     if not message:
         return error_400
     return {"message": message, "code": 200, "time": time.time(), "data": parser.parse(message)}
+
+

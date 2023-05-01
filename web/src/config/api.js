@@ -1,6 +1,6 @@
 const config = {
 	dev: {
-		api: 'http://localhost:8000/'
+		api: 'http://test.sakurapuare.com/'
 	},
 	prod: {
 		api: 'https://medical.sakurapuare.com/api/'
@@ -8,10 +8,6 @@ const config = {
 }
 
 let current = config.prod;
-
-if (process.env.NODE_ENV === 'production') {
-	current = config.prod;
-}
 
 console.log('api endpoint: ' + current.api);
 

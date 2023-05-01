@@ -22,20 +22,4 @@ const activeIndex = route.name;
 </script>
 
 <style scoped>
-.flex-grow {
-    flex-grow: 1;
-}
-
-img {
-    border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    margin-right: 20px;
-}
-
-.img-fluid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 </style>

@@ -58,7 +58,7 @@ const send = () => {
 		return;
 	}
 
-	http.get(baseURL + 'query', {
+	http.get(baseURL + 'query/', {
 		params: {
 			message: question.value
 		}

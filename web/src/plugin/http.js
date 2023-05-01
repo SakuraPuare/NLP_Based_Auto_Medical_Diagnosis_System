@@ -27,7 +27,7 @@ instance.interceptors.response.use((res) => {
 		data = error.response.data.error.message
 	}
 
-	console.error('axios error', data)
+	console.error('axios error', error)
 
 	return Promise.reject(error)
 })

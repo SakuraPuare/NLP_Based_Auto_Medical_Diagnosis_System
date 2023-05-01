@@ -102,7 +102,7 @@ if (id.value === 'list') {
 	reload()
 } else {
 	data.value = ''
-	http.get(baseURL + 'drug/' + id.value)
+	http.get(baseURL + 'drug/' + id.value + '/')
 		.then((res) => {
 			data.value = res.data.data;
 			console.log(data)
